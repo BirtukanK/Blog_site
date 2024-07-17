@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
+import dj_database_url
 import os
 from pathlib import Path
 
@@ -84,6 +85,9 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+DATABASES ["default"] = dj_database_url.parse("postgresql://xomar_user:cfC8crPI9pb4pFo1vpWnlnpNmvS2IQtL@dpg-cqbrhb8gph6c73c60ar0-a.oregon-postgres.render.com/xomar")
+
 
 
 # Password validation
