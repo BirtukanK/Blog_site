@@ -37,7 +37,7 @@
                   <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
                   <form method="POST" action="{% url 'logout' %}">
                   {% csrf_token %}
-                  <button class="btn btn-link nav-item nav-link" type="submit" style=" background-color: #5f788a;padding:0; border-style: none; margin-top: 9px;" >Logout</button>
+                  <button class="btn btn-link nav-item nav-link" type="submit" style=" background-color: #9aa797;padding:0; border-style: none; margin-top: 9px;" >Logout</button>
                   </form>
                 {% else %}
                   <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
