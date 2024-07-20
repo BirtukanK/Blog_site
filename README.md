@@ -66,7 +66,8 @@ Open your web browser and go to `http://127.0.0.1:8000`
 
 - Navigate to the registration page to create a new account.
 - Use your credentials to log in.
-2.Creating a Blog Post
+
+2. Creating a Blog Post
 
 - After logging in, navigate to the "New Post" page.
 - Fill out the form and submit to create a new blog post.
@@ -77,7 +78,7 @@ Open your web browser and go to `http://127.0.0.1:8000`
 4. Pagination
 - Navigate through multiple pages of posts using pagination links.
 
-### Project Structure
+<!-- ### Project Structure
 Blog_site/
 |blog_site
 ├── blog/
@@ -124,4 +125,4 @@ Blog_site/
 │   │       ├── profile.html
 │   │       ├── register.html
 ├── manage.py
-└── requirements.txt
+└── requirements.txt -->
