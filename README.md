@@ -79,8 +79,8 @@ Open your web browser and go to `http://127.0.0.1:8000`
 - Navigate through multiple pages of posts using pagination links.
 
 ### Author
-** - Birtukan Kuma **
-** birtukanKuma1113@gmail.com **
+- Birtukan Kuma
+- birtukanKuma1113@gmail.com
 
 <!-- ### Project Structure
 Blog_site/
